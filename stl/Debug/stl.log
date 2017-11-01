@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/11/1 11:20:41。
+     1>项目“E:\stl\stl\stl.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\stl.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /D _DEBUG /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ConstantString.cpp
+         ConstantString.cpp
+         所有输出均为最新。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\stl\Debug\stl.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\stl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\stl\Debug\stl.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\stl\Debug\stl.lib" /MACHINE:X86 Debug\AllocatorLabels.obj
+         Debug\Argv.obj
+         Debug\BaseAllocator.obj
+         Debug\ConstantString.obj
+         Debug\ConstantStringManager.obj
+         Debug\DateTime.obj
+         Debug\DualThreadAllocator.obj
+         Debug\DynamicHeapAllocator.obj
+         Debug\File.obj
+         Debug\FileObject2.obj
+         Debug\FileUtilities.obj
+         Debug\FileUtilitiesWin.obj
+         Debug\GUID.obj
+         Debug\InitializeAndCleanup.obj
+         Debug\LinearAllocator.obj
+         Debug\LogAssert.obj
+         Debug\LowLevelDefaultAllocator.obj
+         Debug\main.obj
+         Debug\MemoryMacros.obj
+         Debug\MemoryManager.obj
+         Debug\MemoryManager1.obj
+         Debug\MemoryPool.obj
+         Debug\MemoryProfiler.obj
+         Debug\MemoryUtilities.obj
+         Debug\PathNameUtility.obj
+         Debug\PathUnicodeConversion.obj
+         Debug\StackAllocator.obj
+         Debug\Stacktrace.obj
+         Debug\StackWalker.obj
+         Debug\StackWalkerOptions.obj
+         Debug\ThreadSpecificValue.obj
+         Debug\TLSAllocator.obj
+         Debug\tlsf.obj
+         Debug\UnityDefaultAllocator.obj
+         Debug\WinUnicode.obj
+         Debug\Word.obj
+         LINK : 没有找到 E:\stl\Debug\stl.exe 或上一个增量链接没有生成它；正在执行完全链接
+         stl.vcxproj -> E:\stl\Debug\stl.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\stl\Debug\stl.exe;#1" /manifest Debug\stl.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\stl.unsuccessfulbuild”。
+         正在对“Debug\stl.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\stl\stl\stl.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.83

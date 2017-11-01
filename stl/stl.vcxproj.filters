@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantStringManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocatorLabels.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializeAndCleanup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryMacros.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSpecificValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Word.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUtilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LowLevelDefaultAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityDefaultAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogAssert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNameUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DualThreadAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathUnicodeConversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinUnicode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GUID.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryProfiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stacktrace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalkerOptions.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicHeapAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtilitiesWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Argv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileObject2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConstantString.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantStringManager.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportModules.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocatorLabelNames.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AtomicOps.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryMacros.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStripped.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="STLAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocatorLabels.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityPrefix.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStudioPrefix.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrefixConfigure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityConfigure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalCppDefines.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PerPlatformCppDefines.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityString.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformPrefixConfigure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefix.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStudioPostPrefix.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_array.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticAssert.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeUtilities.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformMutex.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializeAndCleanup.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryProfiler.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSpecificValue.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AtomicRefCounter.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Word.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Annotations.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUtilities.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitUtility.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityDefaultAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LowLevelDefaultAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicHeapAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogAssert.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNameUtility.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DualThreadAllocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AllocationHeader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Allocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumFlags.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptingTypes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathUnicodeConversion.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinUnicode.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeUtility.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializationMetaFlags.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapEndianBytes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtilities.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUID.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinUtils.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stacktrace.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsf.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsfbits.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Argv.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

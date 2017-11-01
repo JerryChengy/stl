@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3A6C089-90ED-43B4-A6BF-FE916EF929F9}</ProjectGuid>
+    <RootNamespace>stl</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_DEBUG;</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllocatorLabels.cpp" />
+    <ClCompile Include="Argv.cpp" />
+    <ClCompile Include="BaseAllocator.cpp" />
+    <ClCompile Include="ConstantString.cpp" />
+    <ClCompile Include="ConstantStringManager.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="DualThreadAllocator.cpp" />
+    <ClCompile Include="DynamicHeapAllocator.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FileObject2.cpp" />
+    <ClCompile Include="FileUtilities.cpp" />
+    <ClCompile Include="FileUtilitiesWin.cpp" />
+    <ClCompile Include="GUID.cpp" />
+    <ClCompile Include="InitializeAndCleanup.cpp" />
+    <ClCompile Include="LinearAllocator.cpp" />
+    <ClCompile Include="LogAssert.cpp" />
+    <ClCompile Include="LowLevelDefaultAllocator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryMacros.cpp" />
+    <ClCompile Include="MemoryManager.cpp" />
+    <ClCompile Include="MemoryManager1.cpp" />
+    <ClCompile Include="MemoryPool.cpp" />
+    <ClCompile Include="MemoryProfiler.cpp" />
+    <ClCompile Include="MemoryUtilities.cpp" />
+    <ClCompile Include="PathNameUtility.cpp" />
+    <ClCompile Include="PathUnicodeConversion.cpp" />
+    <ClCompile Include="StackAllocator.cpp" />
+    <ClCompile Include="Stacktrace.cpp" />
+    <ClCompile Include="StackWalker.cpp" />
+    <ClCompile Include="StackWalkerOptions.h" />
+    <ClCompile Include="ThreadSpecificValue.cpp" />
+    <ClCompile Include="TLSAllocator.cpp" />
+    <ClCompile Include="tlsf.c" />
+    <ClCompile Include="UnityDefaultAllocator.cpp" />
+    <ClCompile Include="WinUnicode.cpp" />
+    <ClCompile Include="Word.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllocationHeader.h" />
+    <ClInclude Include="Allocator.h" />
+    <ClInclude Include="AllocatorLabelNames.h" />
+    <ClInclude Include="AllocatorLabels.h" />
+    <ClInclude Include="Annotations.h" />
+    <ClInclude Include="Argv.h" />
+    <ClInclude Include="AtomicOps.h" />
+    <ClInclude Include="AtomicRefCounter.h" />
+    <ClInclude Include="BaseAllocator.h" />
+    <ClInclude Include="BitUtility.h" />
+    <ClInclude Include="ConstantString.h" />
+    <ClInclude Include="ConstantStringManager.h" />
+    <ClInclude Include="DateTime.h" />
+    <ClInclude Include="DualThreadAllocator.h" />
+    <ClInclude Include="DynamicHeapAllocator.h" />
+    <ClInclude Include="dynamic_array.h" />
+    <ClInclude Include="EnumFlags.h" />
+    <ClInclude Include="ExportModules.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FileStripped.h" />
+    <ClInclude Include="FileUtilities.h" />
+    <ClInclude Include="GlobalCppDefines.h" />
+    <ClInclude Include="GUID.h" />
+    <ClInclude Include="InitializeAndCleanup.h" />
+    <ClInclude Include="LinearAllocator.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="LogAssert.h" />
+    <ClInclude Include="LowLevelDefaultAllocator.h" />
+    <ClInclude Include="MemoryMacros.h" />
+    <ClInclude Include="MemoryManager.h" />
+    <ClInclude Include="MemoryPool.h" />
+    <ClInclude Include="MemoryProfiler.h" />
+    <ClInclude Include="MemoryUtilities.h" />
+    <ClInclude Include="Mutex.h" />
+    <ClInclude Include="NonCopyable.h" />
+    <ClInclude Include="PathNameUtility.h" />
+    <ClInclude Include="PathUnicodeConversion.h" />
+    <ClInclude Include="PerPlatformCppDefines.h" />
+    <ClInclude Include="PlatformMutex.h" />
+    <ClInclude Include="PlatformPrefixConfigure.h" />
+    <ClInclude Include="Prefix.h" />
+    <ClInclude Include="PrefixConfigure.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="ScriptingTypes.h" />
+    <ClInclude Include="SerializationMetaFlags.h" />
+    <ClInclude Include="SerializeUtility.h" />
+    <ClInclude Include="StackAllocator.h" />
+    <ClInclude Include="Stacktrace.h" />
+    <ClInclude Include="StackWalker.h" />
+    <ClInclude Include="StaticAssert.h" />
+    <ClInclude Include="STLAllocator.h" />
+    <ClInclude Include="SwapEndianBytes.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="ThreadSpecificValue.h" />
+    <ClInclude Include="TLSAllocator.h" />
+    <ClInclude Include="tlsf.h" />
+    <ClInclude Include="tlsfbits.h" />
+    <ClInclude Include="TypeUtilities.h" />
+    <ClInclude Include="UnityConfigure.h" />
+    <ClInclude Include="UnityDefaultAllocator.h" />
+    <ClInclude Include="UnityPrefix.h" />
+    <ClInclude Include="UnityString.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="VisualStudioPostPrefix.h" />
+    <ClInclude Include="VisualStudioPrefix.h" />
+    <ClInclude Include="WinUnicode.h" />
+    <ClInclude Include="WinUtils.h" />
+    <ClInclude Include="Word.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
